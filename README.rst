@@ -112,5 +112,5 @@ Let's push it up! ::
     $ git push heroku master
     $ heroku open
 
-\o/
+\\o/
 
