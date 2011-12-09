@@ -113,7 +113,8 @@ Let's push it up! ::
 
     $ git push heroku master
     ...
-    $ heroku open
+    $ curl http://simple-warrior-3414.herokuapp.com/hello/kitty
+    <b>Hello kitty!</b>
 
 \\o/
 
