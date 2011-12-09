@@ -81,8 +81,6 @@ Our ``Procfile`` will look like this::
 
     web: python app.py
 
-Nice and simple.
-
 You can now test this out locally with the `foreman <http://ddollar.github.com/foreman/>`_ command (included in the toolbelt)::
 
     $ foreman start
@@ -92,6 +90,10 @@ You can now test this out locally with the `foreman <http://ddollar.github.com/f
     18:04:25 web.1     | Hit Ctrl-C to quit.
 
 It works! Let's push this app up to Heroku.
+
+We also need to tell Heroku what our app needs to run.::
+
+    $ pip freeze > requirements.txt
 
 Your app needs to be in a `Git <http://git-scm.com/>`_ repo. If it isn't already,
 you can do this easily::
@@ -110,6 +112,7 @@ Now, we can create a new heroku app to push this to::
 Let's push it up! ::
 
     $ git push heroku master
+    ...
     $ heroku open
 
 \\o/
