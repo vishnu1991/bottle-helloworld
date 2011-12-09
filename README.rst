@@ -83,7 +83,7 @@ Our ``Procfile`` will look like this::
 
 Nice and simple.
 
-You can now test this out locally with the `foreman`_ command (included in the toolbelt):
+You can now test this out locally with the `foreman <http://ddollar.github.com/foreman/>`_ command (included in the toolbelt)::
 
     $ foreman start
     18:04:25 web.1     | started with pid 21350
